@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">GetOnUp</string>
+    <string name="time_picker_btn">클릭</string>
+
+    <string name="hint_alarm_hour_am">AM</string>
+    <string name="hint_alarm_hour_pm">PM</string>
+    <string name="hint_alarm_hour">10</string>
+    <string name="hint_alarm_minutes">30</string>
+    <string name="time_middle">:</string>
+
+
+    <string name="str_alarm_sunday">일</string>
+    <string name="str_alarm_monday">월</string>
+    <string name="str_alarm_tuesday">화</string>
+    <string name="str_alarm_wednesday">수</string>
+    <string name="str_alarm_thursday">목</string>
+    <string name="str_alarm_friday">금</string>
+    <string name="str_alarm_saturday">토</string>
 </resources>
