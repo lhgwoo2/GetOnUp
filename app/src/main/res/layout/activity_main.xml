@@ -6,13 +6,13 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.loveon.getonup.ui.AlarmListViewModel" />
+            type="com.loveon.getonup.ui.list.AlarmListViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
 
         <FrameLayout
             android:id="@+id/container"
