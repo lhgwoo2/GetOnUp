@@ -10,7 +10,7 @@ data class AlarmInfo(
     @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "id")
     val alarmId: Int,
     val wakeUpTime: Long,
-    val alarmInterval: String,
+    val alarmInterval: Long,
     val alarmName: String = "",
     val alarmMelody: String,
     val turnOn: Boolean

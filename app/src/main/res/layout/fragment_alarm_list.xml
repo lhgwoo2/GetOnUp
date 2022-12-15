@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="adapter"
+            type="com.loveon.getonup.ui.list.AlarmListAdapter" />
+
+        <variable
+            name="vm"
+            type="com.loveon.getonup.ui.list.AlarmListViewModel" />
+    </data>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ui.AlarmListFragment">
+        android:layout_height="match_parent">
 
-        <TextView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_alarm_list"
+            android:layout_margin="2dp"
+            app:adapter="@{adapter}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_recyclerview_alarm"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Hello" />
+            android:layout_height="match_parent"/>
 
     </FrameLayout>
 </layout>
