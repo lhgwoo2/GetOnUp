@@ -16,4 +16,6 @@
     <string name="str_alarm_thursday">목</string>
     <string name="str_alarm_friday">금</string>
     <string name="str_alarm_saturday">토</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
